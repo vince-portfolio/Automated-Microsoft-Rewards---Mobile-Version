@@ -1,10 +1,10 @@
 <style>
-h1, input {
+h1 {
   display: inline;
   font-size: xx-large;
 }
 input {
-  display: inline;
+  display: inline-block;
   height: 25%;
   width: 25%;
 }
@@ -19,7 +19,7 @@ input {
 
   <h1 id="output"></h1>
 
-  <form>
+  <div>
     <button
       id="execute_button"
       onclick="execute_button()"
@@ -39,7 +39,7 @@ input {
       checked
     >
     <!--checked-->  
-  </form>
+  </div>
   
   <style>
     hr {

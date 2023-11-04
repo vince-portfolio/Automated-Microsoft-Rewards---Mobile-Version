@@ -4,9 +4,9 @@ h1 {
   font-size: xx-large;
 }
 input {
-  display: inline-block;
-  height: 25%;
-  width: 25%;
+  display: inline;
+  height: 4%;
+  width: 4%;
 }
 </style>
 
@@ -19,27 +19,27 @@ input {
 
   <h1 id="output"></h1>
 
-  <div>
-    <button
-      id="execute_button"
-      onclick="execute_button()"
-      style="
-        background-color: red;
-        color: yellowgreen;
-        margin-left: 3vw;
-      "
-    >
-      <h1> Stop </h1>
-    </button>
+  <button
+    id="execute_button"
+    onclick="execute_button()"
+    style="
+      background-color: red;
+      color: yellowgreen;
+      margin-left: 3vw;
+    "
+  >
+    <h1> Stop </h1>
+  </button>
+
   
-    <h1 style="margin-left: 3vw;"> Extra Round </h1>
-    <input
-      type="checkbox"
-      id="extra_round"
-      checked
-    >
-    <!--checked-->  
-  </div>
+  <h1 style="margin-left: 3vw;"> Extra Round </h1>
+  <input
+    type="checkbox"
+    id="extra_round"
+    checked
+  >
+  <!--checked-->  
+
   
   <style>
     hr {
